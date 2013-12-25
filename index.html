@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spaghetti Eastern Team</title>
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Spaghetti css -->
+    <link href="css/spaghetti.css" rel="stylesheet" media="screen">
+    <link href="css/social-buttons.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/spaghetti.js"></script>
+
+<!-- NAVBAR
+================================================== -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Spaghetti Eastern</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="rally.html">Il rally</a></li>
+        <li><a href="percorso.html">Il percorso</a></li>
+        <li><a href="mezzo.html">Il mezzo</a></li>
+        <li><a href="team.html">Il team</a></li>
+        <li><a href="sostienici.html">Sostienici</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+
+<!-- CAROSELLO
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+	<div class="item active row-fluid">
+	  <img class="parallax" src="img/car1.png" alt="Gobi desert">
+	  <div class="container"></div>
+	</div>
+	<div class="item">
+	  <img class="parallax" src="img/car2.png" alt="Ulanbataar">
+	  <div class="container"></div>
+	</div>
+	<div class="item">
+	  <img class="parallax" src="img/car3.png" alt="Itinerary">
+	  <div class="container"></div>
+	</div> 
+	<div class="item">
+	  <img class="parallax" src="img/car4.png" alt="Itinerary">
+	  <div class="container"></div>
+	</div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+    
+    
+
+
+<div class="row">
+	<div class="col-md-2 text-center darkbg">
+			<div class="col-md-12">
+				<h3>Sostienici</h3>
+			</div>
+			<div class="spacer10"></div>
+			<div class="col-md-12">
+				<a class="btn btn-primary btn-lg" href="http://www.justgiving.com/spaghettieastern" target="_blank">Justgiving</a>
+			</div>
+			<div class="spacer5"></div>
+			<div class="col-md-12">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+					<input type="hidden" name="cmd" value="_donations">
+					<input type="hidden" name="business" value="mongolrally2014@googlegroups.com">
+					<input type="hidden" name="lc" value="US">
+					<input type="hidden" name="item_name" value="spaghettieastern">
+					<input type="hidden" name="no_note" value="0">
+					<input type="hidden" name="currency_code" value="EUR">
+					<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+					<button type="submit" class="btn btn-warning btn-lg">Paypal</button>
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+			<div class="spacer5"></div>
+			<div class="col-md-12">
+				<a class="btn btn-danger btn-lg" href="http://www.indiegogo.com/projects/spaghetti-eastern-mongolrally-2014--2" target="_blank">Indiegogo</a>
+			</div>
+			<div class="spacer10"></div>
+			<div class="col-md-12">
+			<a href="" data-toggle="modal" data-target="#paypalModal" style="color:white;"><h5>Info sulle donazioni</h5></a>
+		</div>	
+	</div>
+	
+	<div class="col-md-9">
+
+		<div class="row three_banners whitebg">
+			<div class="col-md-4">
+			  <a href="rally.html"><img class="img-rounded" src="img/van.png"></a>
+			  <h2 class="text-info">L'idea</h2>
+			  <p class="text-justify lead">Un rally di beneficenza organizzato da Go Help e finalizzato a raccogliere fondi per la popolazione mongola.</p>
+			</div>
+			<div class="col-md-4">
+			  <a href="team.html"><img class="img-rounded" src="img/friends.png"></a>
+			  <h2 class="text-warning">Chi siamo</h2>
+			  <p class="text-justify lead">Otto amici di vecchia data con un po' di tempo libero e tanta voglia di divertirsi raccogliendo fondi per una buona causa.</p>
+			</div>
+			<div class="col-md-4">
+			  <a href="percorso.html"><img class="img-rounded" src="img/flag.png"></a>
+			  <h2 class="text-danger">Dove andiamo</h2>
+			  <p class="text-justify lead">In Mongolia, per l'esattezza ad Ulaanbaatar, attraversando i balcani, la Turchia, l'Iran e l'Asia centrale.</p>
+			</div>
+		</div>
+		<div class="spacer25"></div>
+		<hr>
+	
+		<div class="row">
+			<div class="col-md-5 whitebg text-center">
+				<div class="col-xs-12">
+					<h3>L'idea ti piace?</h3>
+				</div>
+				<div class="col-xs-12">
+					<p class="lead">Segui i nostri progressi su facebook, twitter ed instagram:</p>
+				</div>
+				<div class="col-xs-12">
+					<a class="btn btn-facebook" href="http://www.facebook.com/spaghettieastern"><i class="fa fa-facebook"></i> | Seguici su Facebook</a>
+					<div class="spacer5"></div>
+					<a class="btn btn-twitter" href="http://twitter.com/SpaghettiETeam"><i class="fa fa-twitter"></i> | Seguici su twitter</a>
+					<div class="spacer5"></div>
+					<a class="btn btn-instagram" href="https://instagram.com"><i class="fa fa-instagram"></i> | Seguici su Instagram</a>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-md-offset-1 whitebg text-center">
+				<div class="col-xs-12">
+					<h3>Sei convinto?</h3>
+				</div>
+				<div class="col-xs-12">
+					<p class="lead">Sostieni il nostro progetto con una donazione! Se preferisci puoi anche donare direttamente a GoHelp, la charity che organizza il Rally</p>
+				</div>
+				<div class="col-xs-12">
+					<a class="btn btn-dribbble btn-lg" href="sostienici.html">Dona</a>
+					<div class="spacer5"></div>
+				</div>
+			</div>
+	
+		</div>
+	
+	
+	</div>
+
+</div>
+
+<div class="row">
+	<div class="spacer30"></div><div class="spacer30"></div>
+	<hr>
+	<div class="col-xs-8 col-md-offset-2 ">
+     	<footer>
+       		<p class="pull-right"><a href="http://www.spaghettieastern.net/spese">Private</a></p>
+        	<p>&copy; 2013 Spaghetti Eastern</p>
+      	</footer>
+	</div>
+</div>
+
+
+
+<!--- This is the modal that gives extra info on what happens to the money --->
+<div class="modal fade" id="paypalModal" tabindex="-1" role="dialog" aria-labelledby="paypalModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="paypalModalLabel">Come useremo le donazioni</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Donazioni al team via Paypal o Indiegogo</h4>
+        	<p>I soldi donati direttamente al team via Paypal o Indiegogo verranno usati per finanziare alcune delle spese che
+        	dovremo affrontare per poter realizzare il nostro progetto. Per esempio, questi soldi parteciperanno a pagare:</p>
+        	<ul>
+  				<li>Il veicolo</li>
+				<li>Parti di ricambio per il veicolo</li>
+  				<li>Tasse per importare il veicolo in mongolia</li>
+  				<li>Carburante</li>
+			</ul>
+			<p>I soldi donati <span class="text-danger">non saranno usati</span> per coprire:</p>
+  				<li>Il vitto o l'alloggio durante il viaggio</li>
+				<li>Il costo del volo di ritorno</li>
+  				<li>Le spese personali durante il viaggio</li>			
+			<p>Tutti i soldi non spesi verranno donati a Go Help.</p>
+		
+		<h4>Donazioni a Go Help</h4>
+			<p>Tutti i soldi donati attraverso il sito JustGiving verranno interamente devoluti in beneficenza.
+      </div>
+    </div>
+  </div>
+</div>
+<!--- END OF THE MODAL --->
+
+
+
+
+</body>
+</html>

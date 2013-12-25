@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spaghetti Eastern Team</title>
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Spaghetti css -->
+    <link href="css/spaghetti.css" rel="stylesheet" media="screen">
+    <link href="css/jquery.qtip.min.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/spaghetti.js"></script>
+<script src="js/jquery.qtip.min.js"></script>
+
+
+<!-- NAVBAR
+================================================== -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Spaghetti Eastern</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rally.html">Il rally</a></li>
+        <li class="active"><a href="percorso.html">Il percorso</a></li>
+        <li><a href="mezzo.html">Il mezzo</a></li>
+        <li><a href="team.html">Il team</a></li>
+        <li><a href="sostienici.html">Sostienici</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+
+<!-- CAROSELLO
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+	<div class="item active row-fluid">
+	  <img class="parallax" src="img/car1.png" alt="Gobi desert">
+	  <div class="container"></div>
+	</div>
+	<div class="item">
+	  <img class="parallax" src="img/car2.png" alt="Ulanbataar">
+	  <div class="container"></div>
+	</div>
+	<div class="item">
+	  <img class="parallax" src="img/car3.png" alt="Itinerary">
+	  <div class="container"></div>
+	</div> 
+	<div class="item">
+	  <img class="parallax" src="img/car4.png" alt="Itinerary">
+	  <div class="container"></div>
+	</div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+
+
+<div class="container">
+	
+	
+	<div class="col-xs-7 text-center">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<img class="img-thumbnail img-responsive" src="img/percorso.png" alt="Generic placeholder image" usemap="#map">
+				<map name="map" id="map">
+					<area alt="Ulaanbaatar" shape="circle" coords="607, 87, 12" />
+					<area alt="Almaty" shape="circle" coords="437, 115, 11" />
+					<area alt="Bishkek" shape="circle" coords="421, 138, 8" />
+					<area alt="Samarcanda" shape="circle" coords="392, 146, 18" />
+					<area alt="Tehran" shape="circle" coords="292, 186, 21" />
+					<area alt="Istanbul" shape="circle" coords="162, 151, 21" />
+					<area alt="Budapest" shape="circle" coords="106, 103, 22" />
+					<area alt="Milano" shape="circle" coords="49, 120, 19" />
+				</map>
+			</div>
+			<div class="col-xs-12 text-center whitebg">
+				<p class="lead text-justify">Il regolamento del rally non prevede un percorso prefissato, l'unica regola &egrave; raggiungere la capitale della Mongolia, Ulan-Bator. Il nostro Team ha deciso di percorrere la cos&igrave; detta Southern Way dove sono presenti le popolazioni pi&ugrave; bisognose, per le quali il team ha previsto un particolare regalo. La partenza &egrave; prevista da Milano intorno al 6 Luglio 2014. Il giorno successivo ci incontreremo con gli altri equipaggi, partiti da tutta Europa a Budapest. Dall'<span class="text-warning">Ungheria</span>, attraversando <span class="text-warning">Serbia</span> e <span class="text-warning">Bulgaria</span> si prosegue attraverso Istanbul e la <span class="text-warning">Turchia</span> fino al confine con l'<span class="text-warning">Iran</span>. Percorrendo la principale arteria dell'Iran da Tabriz a Mashad, passando per Teheran, raggiungeremo il cuore dell'Asia Centrale. Attraverso <span class="text-warning">Turkmenistan, Uzbekistan, Kyrgyzstan e Kazakhstan</span> ci si spinge fino alla steppa <span class="text-warning">Russa</span> da cui si entra in <span class="text-warning">Mongolia</span>. Da qui si procede attraverso le centinaia di kilometri delle lande desolate mongole fino al traguardo: Ulan-Bator. Il viaggio durer&agrave; circa 25 giorni attraverso 14 stati, 9 capitali per un totale di circa 12000 km su asfalto,  terra e sabbia.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-xs-5 verywhitebg">
+		<div class="row">
+			<div class="col-xs-12">
+				<dl class="dl-horizontal">
+  					<dt>Partenza:</dt>
+  					<dd>Milano, 6 luglio 2014</dd>
+  					<dt>Arrivo:</dt>
+  					<dd>Ulaanbataar, 2 agosto 2014</dd>
+  					<dt>Paesi attraversati:</dt>
+  					<dd>14</dd>
+    				<dt>Capitali toccate:</dt>
+  					<dd>9</dd>
+      				<dt>Kilometri:</dt>
+  					<dd>12000</dd>
+				</dl>
+			</div>
+			<div class="col-lg-12 text-center">
+			</div>
+		</div>
+	</div>
+	
+
+<hr>
+
+</div>
+
+<div class="row">
+	<div class="spacer30"></div><div class="spacer30"></div>
+	<hr>
+	<div class="col-xs-8 col-md-offset-2 ">
+     	<footer>
+       		<p class="pull-right"><a href="#">Back to top</a></p>
+        	<p>&copy; 2013 Spaghetti Eastern</p>
+      	</footer>
+	</div>
+</div>    
+    
+    
+</body>
+</html>
