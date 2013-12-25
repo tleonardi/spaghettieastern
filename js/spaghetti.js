@@ -1,10 +1,10 @@
 $(document).ready(function() {
-    imgVerticalCenter();
 	/* Scroll event handler */
 	$(window).bind('scroll',function(e){
     	if($(window).width() > 979){
     		parallaxScroll();
     	}
+    imgVerticalCenter();
 	});
 	
 	
