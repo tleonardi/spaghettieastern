@@ -25,7 +25,9 @@
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/spaghetti.js"></script>
-
+<script>
+getDonations();
+</script>
 <!-- NAVBAR
 ================================================== -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
@@ -92,7 +94,7 @@
 <div class="row">
 	<div class="col-md-2 text-center darkbg">
 			<div class="col-md-12">
-				<h3>Sostienici</h3>
+				<h2>Sostienici</h2>
 			</div>
 			<div class="spacer10"></div>
 			<div class="col-md-12">
@@ -116,10 +118,18 @@
 			<div class="col-md-12">
 				<a class="btn btn-danger btn-lg" href="http://www.indiegogo.com/projects/spaghetti-eastern-mongolrally-2014--2" target="_blank">Indiegogo</a>
 			</div>
-			<div class="spacer10"></div>
+						
+			<div class="spacer35"></div>
+			<div class="spacer20"></div>
+			
+			<div class="col-md-12 roundborder">
+				<span class="lead">Totale donazioni raccolte:</span><h2><span class="donationsTotal text-warning"></span></h2>
+			</div>	
+			
+
 			<div class="col-md-12">
-			<a href="" data-toggle="modal" data-target="#paypalModal" style="color:white;"><h5>Info sulle donazioni</h5></a>
-		</div>	
+				<a href="" data-toggle="modal" data-target="#paypalModal" style="color:white;"><h4>Info sulle donazioni</h4></a>
+			</div>	
 	</div>
 	
 	<div class="col-md-9">

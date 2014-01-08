@@ -25,6 +25,10 @@
 
 <script src="js/spaghetti.js"></script>
 
+<script>
+	getDonations();
+</script>
+
 <!-- NAVBAR
 ================================================== -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
@@ -85,7 +89,13 @@
   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div><!-- /.carousel -->
 
-
+<div class="row">
+	<div class="col-md-6 col-md-offset-3 text-center whitebg">
+		<h3>Totale donazioni raccolte</h3><h2><span class="donationsTotal"></span></h2>
+	</div>
+</div>
+	
+<hr>
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
 	<div class="row whitebg">
@@ -101,7 +111,7 @@
 			</div>
 
 	</div>
-	<hr>	
+
 	<div class="row">
 			<div class="col-md-4 col-md-offset-1 text-center whitebg" style="min-height: 250px">
 				<h3>Sostieni il team</h3>

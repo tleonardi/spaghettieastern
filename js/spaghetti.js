@@ -48,3 +48,20 @@ $( window ).resize(function() {
 		});
 		
 	}
+	
+	function getDonations(){
+		var tot;
+		$.ajax({
+    		url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://spreadsheets.google.com/feeds/cells/0AtKS0X_0E8oEdDFWazhIM1B4b2VMcWRhMXdkb0lBd3c/od5/public/basic?range=D2&alt=rss'),
+    		dataType: 'json',
+    		async: false,
+        	success: function(data) {
+            	tot = data.responseData.feed.entries[0].content;
+            	$('.donationsTotal').text(tot);
+
+        	} 
+  		});
+		return(tot);
+	}
+	
+	
