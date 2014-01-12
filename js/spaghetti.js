@@ -58,10 +58,10 @@ $( window ).resize(function() {
         	success: function(data) {
             	tot = data.responseData.feed.entries[0].content;
             	$('.donationsTotal').text(tot);
+            	console.log(data);
 
         	} 
   		});
-		return(tot);
 	}
 	
 	
