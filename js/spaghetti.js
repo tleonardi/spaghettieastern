@@ -49,6 +49,7 @@ $( window ).resize(function() {
 		
 	}
 	
+<<<<<<< HEAD
 	function getDonations(){
 		var tot;
 		$.ajax({
@@ -63,5 +64,20 @@ $( window ).resize(function() {
         	} 
   		});
 	}
+=======
+function getDonations(){
+	$.get("https://spreadsheets.google.com/feeds/cells/0AtKS0X_0E8oEdDFWazhIM1B4b2VMcWRhMXdkb0lBd3c/od5/public/basic?range=D2&alt=rss", function(data) {
+		var $xml = $(data);
+		$xml.find("item").each(function() {
+			var $this = $(this),
+      			item = {
+				description: $this.find("description").text(),
+			}
+			var total=item.description;
+			$('.donationsTotal').text(total);
+    		});
+	});	
+}
 	
+>>>>>>> 010d6eabf9128d81450319de14229da2e4ff52d9
 	
