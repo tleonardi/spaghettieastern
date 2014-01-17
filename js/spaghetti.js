@@ -7,6 +7,7 @@ $(document).ready(function() {
     imgVerticalCenter();
 	});
 	
+
 	
 	if(window.location.pathname.match("percorso.html")){
 		// We'll target all AREA elements with alt tags (Don't target the map element!!!)
@@ -24,6 +25,8 @@ $(document).ready(function() {
 			}
 		});
 	}
+
+getDonations();
 
 });
 
