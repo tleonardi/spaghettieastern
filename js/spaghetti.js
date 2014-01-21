@@ -61,7 +61,9 @@ function getDonations(){
 				description: $this.find("description").text(),
 			}
 			var total=item.description;
-			$('.donationsTotal').text(total);
+			$('.donationsTotal').animate({'opacity': 0}, 1000, function () {
+    			$(this).text(total);
+			}).animate({'opacity': 1}, 1000);
     		});
 	});	
 }
